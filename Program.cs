@@ -1,15 +1,18 @@
-﻿// See https://aka.ms/new-console-template for more information
-using AdventOfCode2023.Day1;
+﻿//using AdventOfCode2023.Day1;
+//using AdventOfCode2023.Day1Part2;
 
 Console.WriteLine("Hello, World!");
 
-TestDay1 testDay1 = new TestDay1();
-//testDay1.TestDigits(testDay1.testLineConst);
-//testDay1.TestLineInt(testDay1.testLineConst);
-//testDay1.TestLineInt(testDay1.testLineConst2);
-//testDay1.TestLinesInt(testDay1.test2LinesConst);
-//testDay1.GetCalibrationResult(testDay1.test2LinesConstFull);
-//testDay1.GetCalibrationResult(testDay1.test2LinesConstFull);
 
-string calDocStr = File.ReadAllText(@"Day1\CalibrationDocument.txt");
-testDay1.GetCalibrationResult(calDocStr);
+//Day 1
+//Start at 2:50 PM
+//End   at 3:39 PM 
+//Start at 4:10 PM
+//End   at 5:00 PM
+
+//Day 1
+//RunningDay1.Day1Testing();
+
+//Day 1 Part 2
+//TestDay1Part2 tester = new();
+//tester.Test();

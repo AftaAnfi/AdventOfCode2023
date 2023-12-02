@@ -1,6 +1,6 @@
 ﻿namespace AdventOfCode2023.Day1
 {
-  internal class FirstAndLastDigitCalc
+  internal class FirstAndLastDigitCalcPart2
   {
     public int[] GetDigitsFromLine(string line)
     {

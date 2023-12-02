@@ -10,7 +10,7 @@
 
     public void TestDigits(string testLine)
     {
-      FirstAndLastDigitCalc firstAndLastDigitCalc = new FirstAndLastDigitCalc();
+      FirstAndLastDigitCalcPart2 firstAndLastDigitCalc = new FirstAndLastDigitCalcPart2();
       int[] resultInts = firstAndLastDigitCalc.GetDigitsFromLine(testLine);
       foreach(int digit in resultInts)
       {
@@ -20,7 +20,7 @@
 
     public void TestLineInt(string testLine)
     {
-      FirstAndLastDigitCalc firstAndLast = new FirstAndLastDigitCalc();
+      FirstAndLastDigitCalcPart2 firstAndLast = new FirstAndLastDigitCalcPart2();
       int resultInt = firstAndLast.GetNumberPerLine(testLine);
       Console.WriteLine(resultInt.ToString());
     }
@@ -36,7 +36,7 @@
 
     public void GetCalibrationResult(string testLinesIn)
     {
-      FirstAndLastDigitCalc firstAndLast = new FirstAndLastDigitCalc();
+      FirstAndLastDigitCalcPart2 firstAndLast = new FirstAndLastDigitCalcPart2();
 
       string[] linesSeperated = testLinesIn.Split("\r\n");
       int calValue = 0;
